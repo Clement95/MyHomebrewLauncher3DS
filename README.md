@@ -2,6 +2,8 @@
 
 This is my custom Homebrew Launcher !
 
+Just download the [zip file](https://github.com/Clement95/MyHomebrewPacks/archive/master.zip) and copy the 3ds folder to your SD card!
+
 # Homebrews
 
 Here homebrews contained :
