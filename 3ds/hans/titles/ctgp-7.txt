@@ -1,0 +1,6 @@
+region : 2
+language : 1
+clock : 00030700
+romfs : 0
+code : 1
+nim_checkupdate : 1
