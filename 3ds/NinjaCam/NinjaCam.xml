@@ -1,0 +1,8 @@
+<targets selectable="false">
+ <!-- Nintendo 3DS Camera (USA) -->
+ <title mediatype="0">0004001000021400</title>
+ <!-- Nintendo 3DS Camera (EUR) -->
+ <title mediatype="0">0004001000022400</title>
+ <!-- Nintendo 3DS Camera (JPN) -->
+ <title mediatype="0">0004001000020400</title>
+</targets>

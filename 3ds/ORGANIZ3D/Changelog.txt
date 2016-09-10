@@ -1,0 +1,14 @@
+- Now exiting from JPGV Player when a video finishes will not cause a system freeze.
+- Bugfix for 3DSX Launcher causing interpreter crash if selected with "Open with" feature.
+- Added 3DSX Launcher support to *hax 2.X.
+- Increased a lot performances for JPGV Player.
+- Reduced loading time for JPG images.
+- Slight speedup for the whole homebrew.
+- Added more info showed for CIA files (Version, Size to install, Icon, Name, Author, Description)
+- Bugfix for CIA Installer not correctly working if a CIA file was opened without "Open with" feature.
+- Added a Controls List popup when you press Start.
+- Updated to latest lpp-3ds nightly build.
+- Added another (default) sample theme.
+- Now opening a theme will not cause a system crash anymore.
+- Now if you hold Up/Down buttons, you'll be able to scroll files faster.
+- Reintroduced CIA version of ORGANIZ3D. (Place ORG_Themes and ORG_CONFIG.txt in root of SD).

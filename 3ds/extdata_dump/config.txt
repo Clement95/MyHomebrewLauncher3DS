@@ -1,0 +1,2 @@
+: replace CFL_DB
+RESTORE "CFL_DB.dat" "f000000b:/CFL_DB.dat"

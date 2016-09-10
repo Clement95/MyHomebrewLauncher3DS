@@ -1,0 +1,253 @@
+menuhax_manager v3.1 by yellows8.
+Deleting SD data from old menuhax_manager versions, etc...
+Opening extdata archives...
+Finished opening extdata.
+
+Downloading config via HTTPC...
+Parsing config...
+menuhax_manager v3.1 by yellows8.
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+-> Install
+   Delete
+   Configure menuhax.
+   Configure the menuhax splash-screen.
+Have you fully read the latest README?
+https://github.com/yellows8/3ds_homemenuhax
+A = Yes, B = No.
+
+Getting system info...
+Detected system-version: New3DS 11.0.0-33 EUR
+Do you want to override the detected system-version? Normally using this will cause Home Menu to fail to boot until the intended Home Menu version is installed(unless an older exploit is used).
+A = Yes, B = No.
+
+
+Skip updating the *hax payload? Normally you should just press B.
+A = Yes, B = No.
+
+Setting up *hax payload...
+Requesting the actual payload URL with HTTPC...
+Downloading the actual payload with HTTPC...
+Writing the menuropbin to SD...
+ropbin_filepath = sdmc:/menuhax/ropbin/ropbinpayload_menuhax_EUR24576_new3ds.bin
+Copying stage2 to SD...
+Src path = 'romfs:/finaloutput/menuhax_payload.zip@menuhax_EUR24576_new3ds.bin', dst = 'sdmc:/menuhax/stage2/menuhax_EUR24576_new3ds.bin'.
+Reading stage2...
+Writing stage2...
+Installing sdiconhax...
+Loading SaveData.dat...
+Locating data in Home Menu linearmem heap...
+Failed to find the buffer for the target objects-list.
+Error from sdiconhax_locatelinearmem(): 0xfffffffc
+Trying to load addrs from the built-in list since auto-locate failed...
+Region = 0x2, language = 0x2.
+Running SD setup for stage1...
+Loading exploit file-data + writing into extdata...
+Install finished successfully.
+
+Press the A button to continue.
+menuhax_manager v3.1 by yellows8.
+Installed menuhax from the last installation run:
+'v3.1:sdiconhax'
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+-> Install
+   Delete
+   Configure menuhax.
+   Configure the menuhax splash-screen.
+menuhax_manager v3.1 by yellows8.
+Installed menuhax from the last installation run:
+'v3.1:sdiconhax'
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+   Install
+-> Delete
+   Configure menuhax.
+   Configure the menuhax splash-screen.
+menuhax_manager v3.1 by yellows8.
+Installed menuhax from the last installation run:
+'v3.1:sdiconhax'
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+   Install
+   Delete
+-> Configure menuhax.
+   Configure the menuhax splash-screen.
+menuhax_manager v3.1 by yellows8.
+Installed menuhax from the last installation run:
+'v3.1:sdiconhax'
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+   Install
+   Delete
+   Configure menuhax.
+-> Configure the menuhax splash-screen.
+This will configure the image displayed on the main-screen when menuhax triggers. When the image-display file isn't loaded successfully by menuhax, it will display junk.
+
+The image-display file already exists on SD.
+The image now displayed on the screen(s) is the current content of the image-display file.
+
+Press the A button to continue. Hold the Y button to display the bottom-screen image if available.
+Loading PNG(s)...
+Loading PNG from FS: romfs:/default_imagedisplay.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select an option with the below menu. You can press B to exit without changing anything. Screen toggling is disabled here. The image displayed on the top-screen is what would be used if you select the default-image option below.
+
+-> Default image.
+   Select a custom image.
+   Delete the image-display file.
+Select an option with the below menu. You can press B to exit without changing anything. Screen toggling is disabled here. The image displayed on the top-screen is what would be used if you select the default-image option below.
+
+   Default image.
+-> Select a custom image.
+   Delete the image-display file.
+
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+1 of 3:
+scr_8_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_8_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+1 of 3:
+scr_8_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_8_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+1 of 3:
+scr_8_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_8_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+3 of 3:
+scr_23_TOP_RIGHT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_RIGHT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+3 of 3:
+scr_23_TOP_RIGHT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_RIGHT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+3 of 3:
+scr_23_TOP_RIGHT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_RIGHT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Select a custom splash-screen image via the D-Pad/Circle-Pad, then press A.
+You can press B to exit without changing anything.
+Hold the Y button to display the bottom-screen image if available.
+The selected image if successfully loaded is displayed on the other screen.
+2 of 3:
+scr_23_TOP_LEFT.png
+Loading PNG from FS: splashscreen/scr_23_TOP_LEFT.png
+Decoding PNG...
+Decoding finished.
+Converting the image to the required format...
+Writing the final image to SD...
+Configuration finished successfully.
+
+Press the A button to continue.
+menuhax_manager v3.1 by yellows8.
+Installed menuhax from the last installation run:
+'v3.1:sdiconhax'
+
+This can install Home Menu haxx to the SD card, for booting the *hax payloads. Select an option with the below menu via the D-Pad/Circle-Pad, then press A. You can press the B button to exit. You can press the Y button at any time while at a menu like the below one, to toggle the screen being used by this app.
+The theme menu options are only available when the cfg file exists on SD with an exploit installed which requires seperate theme-data files.
+
+   Install
+   Delete
+   Configure menuhax.
+-> Configure the menuhax splash-screen.
+
+Press the START button to exit.
